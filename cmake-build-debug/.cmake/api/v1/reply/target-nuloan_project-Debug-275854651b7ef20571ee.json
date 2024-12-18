@@ -1,0 +1,695 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "nuloan_project.exe"
+		},
+		{
+			"path" : "nuloan_project.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"target_compile_options",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 90,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-IC:/msys64/mingw64/bin/../include/gtk-4.0"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-IC:/msys64/mingw64/bin/../include/pango-1.0"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-IC:/msys64/mingw64/bin/../include/fribidi"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-IC:/msys64/mingw64/bin/../include"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-IC:/msys64/mingw64/bin/../include/harfbuzz"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-IC:/msys64/mingw64/bin/../include/gdk-pixbuf-2.0"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-IC:/msys64/mingw64/bin/../include/webp"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-DLIBDEFLATE_DLL"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-IC:/msys64/mingw64/bin/../include/cairo"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-IC:/msys64/mingw64/bin/../include/freetype2"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-IC:/msys64/mingw64/bin/../include/libpng16"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-IC:/msys64/mingw64/bin/../include/pixman-1"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-IC:/msys64/mingw64/bin/../include/graphene-1.0"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-IC:/msys64/mingw64/bin/../lib/graphene-1.0/include"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpmath=sse"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-msse"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-msse2"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-IC:/msys64/mingw64/bin/../include/glib-2.0"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-IC:/msys64/mingw64/bin/../lib/glib-2.0/include"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/msys64/mingw64/bin/../include/gtk-4.0"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/msys64/mingw64/bin/../include/pango-1.0"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/msys64/mingw64/bin/../include/fribidi"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/msys64/mingw64/bin/../include/harfbuzz"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/msys64/mingw64/bin/../include/gdk-pixbuf-2.0"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/msys64/mingw64/bin/../include/webp"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/msys64/mingw64/bin/../include/cairo"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/msys64/mingw64/bin/../include/freetype2"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/msys64/mingw64/bin/../include/libpng16"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/msys64/mingw64/bin/../include/pixman-1"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/msys64/mingw64/bin/../include/graphene-1.0"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/msys64/mingw64/bin/../lib/graphene-1.0/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/msys64/mingw64/bin/../include/glib-2.0"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/msys64/mingw64/bin/../lib/glib-2.0/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				24,
+				26,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49
+			]
+		}
+	],
+	"id" : "nuloan_project::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,--enable-auto-import",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lgtk-4",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lpangowin32-1.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lpangocairo-1.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lpango-1.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lharfbuzz",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lgdk_pixbuf-2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lcairo-gobject",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lcairo",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lvulkan-1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lgraphene-1.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lgio-2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lgobject-2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lglib-2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lintl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lgcrypt",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libcurl.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lregex",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "nuloan_project",
+	"nameOnDisk" : "nuloan_project.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				24,
+				26,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				20,
+				21,
+				22,
+				23,
+				25,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				44,
+				46,
+				48
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Login.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Check_User_Information.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Check_User_Information.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SignUp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SignUp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Check_Signup_Information.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Check_Signup_Information.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Check_email.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Check_email.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Send_Email.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Send_Email.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "hash_password.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "hash_password.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Bank_information.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Bank_information.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Check_Bank_Information.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Check_Bank_Information.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Save_file.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Save_file.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Structures/User.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Structures/Bank_User_info.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Structures/Application.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Login_Process_Handle_Window.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Login_Process_Handle_Window.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Super_Admin.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Super_Admin.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Show_Users.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Show_Users.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Active_Member.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Active_Member.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Apply_Loan.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Apply_Loan.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Check_Loan_Status.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Check_Loan_Status.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "First_Page.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "First_Page.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Apply_Loan_More_Information.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Apply_Loan_More_Information.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Apply_Loan_fianl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Apply_Loan_fianl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Show_Loan_Application.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Show_Loan_Application.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Auto_Check_application.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Auto_Check_application.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Approve_Reject_Application.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Approve_Reject_Application.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Check_Loan_Status_more.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Check_Loan_Status_more.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Forget_Password.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

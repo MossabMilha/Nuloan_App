@@ -1,0 +1,16 @@
+"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\PC\CLionProjects\nuloan_project -B C:\Users\PC\CLionProjects\nuloan_project\cmake-build-debug
+-- The C compiler identification is GNU 14.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/msys64/mingw64/bin/cc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found PkgConfig: C:/msys64/mingw64/bin/pkg-config.exe (found version "2.3.0")
+-- Checking for module 'gtk4'
+--   Found gtk4, version 4.16.4
+-- Checking for module 'libgcrypt'
+--   Found libgcrypt, version 1.11.0-unknown
+-- Found CURL: C:/msys64/mingw64/lib/cmake/CURL/CURLConfig.cmake (found version "8.10.1")
+-- Configuring done (1.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/PC/CLionProjects/nuloan_project/cmake-build-debug
