@@ -545,8 +545,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/PC/CLionProjects/nuloan_project/cmake-build-debug",
-		"source" : "C:/Users/PC/CLionProjects/nuloan_project"
+		"build" : "C:/Users/PC/CLionProjects/nuloan/cmake-build-debug",
+		"source" : "C:/Users/PC/CLionProjects/nuloan"
 	},
 	"version" : 
 	{
